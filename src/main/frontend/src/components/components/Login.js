@@ -1,6 +1,6 @@
 // Login.js
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import { useAuth } from '../AuthContext'; // Use the hook instead of useContext directly
 
 const Login = () => {
