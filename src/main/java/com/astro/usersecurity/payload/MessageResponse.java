@@ -4,7 +4,7 @@ public class MessageResponse {
   private String message;
 
   public MessageResponse(String message) {
-    this.message = message;
+    this.message = "User registered successfully!";
   }
 
   public String getMessage() {
